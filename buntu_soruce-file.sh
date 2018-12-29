@@ -10,7 +10,8 @@ alias dockeri="docker images"
 alias dockerrmiton="docker "
 alias wk="watch kubectl get pods --all-namespaces"
 
-eval $(minikube docker-env)
+
 alias mini="minikube "
 alias cd..="cd .."
 alias kube="kubectl "
+eval $(minikube docker-env)
