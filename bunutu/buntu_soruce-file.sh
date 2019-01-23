@@ -3,11 +3,10 @@ alias watchk="watch kubectl get pods --all-namespaces"
 alias bye="sudo shutdown now"
 alias reb="sudo reboot now"
 
-alias mgitb="git branch"
-alias mgits="git branch; git status"
-alias mgitc="git commit -m "
+alias gitb="git branch"
+alias gits="git branch; git status"
+alias gitc="git commit -m "
 alias dockeri="docker images"
-alias dockerrmiton="docker "
 alias wk="watch kubectl get pods --all-namespaces"
 
 
